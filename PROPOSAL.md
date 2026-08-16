@@ -12,6 +12,10 @@ and start treating it as a public health emergency.**
 *Play Your Part: Youth Designing the Future of Media and Information Literacy*
 
 [![Live demo](https://img.shields.io/badge/live%20now-voice--beta--five.vercel.app-22C55E?style=flat&logo=vercel&logoColor=white&labelColor=333)](https://voice-beta-five.vercel.app/)
+[![Source code](https://img.shields.io/badge/source-github.com%2Fbeastzex-3B82F6?style=flat&logo=github&logoColor=white&labelColor=333)](https://github.com/beastzex/UNESCO_Youth_Hackathon_Submission_2026)
+[![Demo video](https://img.shields.io/badge/demo-watch%20on%20youtube-EF4444?style=flat&logo=youtube&logoColor=white&labelColor=333)](https://youtu.be/Tzlrb1JIgyo?si=JBEu2I9SuoxrrKx1)
+
+*For the best experience, view this video on mobile.*
 [![Status](https://img.shields.io/badge/status-deployed%2C%20not%20a%20mockup-3B82F6?style=flat&labelColor=333)](https://voice-beta-five.vercel.app/)
 [![Languages](https://img.shields.io/badge/languages-24%20at%20launch-8B5CF6?style=flat&labelColor=333)](docs/09-internationalization.md)
 [![Latency](https://img.shields.io/badge/diagnosis-under%201%20second-EF4444?style=flat&labelColor=333)](docs/04-ai-pipeline.md)
@@ -430,7 +434,10 @@ The thing that beat cholera was never better writing about cholera.
 
 **[voice-beta-five.vercel.app](https://voice-beta-five.vercel.app/)**
 
-[Documentation](docs/README.md) · [Architecture](docs/02-architecture.md) · [AI Pipeline](docs/04-ai-pipeline.md) · [Repository](README.md)
+**Source code —
+[github.com/beastzex/UNESCO_Youth_Hackathon_Submission_2026](https://github.com/beastzex/UNESCO_Youth_Hackathon_Submission_2026)**
+
+[Documentation](docs/README.md) · [Architecture](docs/02-architecture.md) · [AI Pipeline](docs/04-ai-pipeline.md) · [Repository](https://github.com/beastzex/UNESCO_Youth_Hackathon_Submission_2026)
 
 **© 2026 V0ICE Initiative** · Open Citizen Surveillance Protocol
 
