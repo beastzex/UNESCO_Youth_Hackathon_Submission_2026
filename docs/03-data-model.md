@@ -5,6 +5,8 @@
 
 # ▦ Data Model
 
+**Three tables, two relationships, and one derived number that everything else exists to produce.**
+
 ## Entity Relationships
 
 Three entities, two relationships, one derived metric.
@@ -110,11 +112,11 @@ Rejection is a schema affordance awaiting a UI. See
 The fourth member differs: `field_worker` versus `field_health_worker`. The
 application imports `RoleType` from `RoleContext`, so `field_health_worker` is the
 operative value and the persisted `vois_current_role` string. The `types/index.ts`
-variant is dead. See [Data Model](03-data-model.md#-the-two-type-sources).
+variant is dead. See [Data Model](03-data-model.md#-the-two-type-sources--and-which-one-actually-runs).
 
 ---
 
-## ▸ The Two Type Sources
+## ▸ The Two Type Sources — and Which One Actually Runs
 
 The most consequential structural fact about the data layer: `Strain`, `Submission`,
 and `VaccineContent` are each declared **twice**, in files with different consumers.

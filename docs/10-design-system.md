@@ -5,6 +5,8 @@
 
 # ◐ Design System
 
+**Pure black, pure white, and five colours that each mean exactly one thing.**
+
 A brutalist-editorial system: pure monochrome ground, heavy geometric display type,
 hairline rules, generous negative space, and five saturated accents used exclusively
 as functional signals — never as decoration.
@@ -16,7 +18,7 @@ as functional signals — never as decoration.
 
 ---
 
-## ▸ The V0ICE Accent Palette
+## ▸ The V0ICE Accent Palette — Five Letters, Five Roles, Five Colours
 
 Five colours, one per letter of the wordmark, one per role in the pipeline. Declared
 as CSS custom properties in [`app/globals.css`](../app/globals.css):

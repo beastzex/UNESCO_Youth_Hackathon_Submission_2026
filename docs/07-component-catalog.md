@@ -5,6 +5,8 @@
 
 # ▧ Component Catalog
 
+**Eighteen components. Six are running the platform. This is what the other twelve are doing — and why that matters.**
+
 Eighteen files in [`components/`](../components/). Six are wired into live routes;
 twelve are not. This document covers all of them, because knowing what is *not*
 running is as useful as knowing what is.
@@ -304,7 +306,7 @@ Fully theme-aware and fully translated.
 
 ---
 
-# ○ Orphaned Components
+# ○ Orphaned Components — Built, Never Wired
 
 Present in the tree, imported by nothing.
 

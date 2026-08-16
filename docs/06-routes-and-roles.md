@@ -5,6 +5,8 @@
 
 # ▸ Routes & Roles
 
+**Nine routes, five civic roles, and a loop you can walk end to end in under three minutes.**
+
 ## Route Map
 
 ```

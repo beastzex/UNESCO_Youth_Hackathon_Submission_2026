@@ -5,6 +5,8 @@
 
 # ⇄ API Reference
 
+**Three endpoints. Malformed input gets a 400. Everything else gets a 200 — on purpose.**
+
 Three route handlers, all `POST`, all under [`app/api/`](../app/api/). They run on the
 Node runtime inside the same Next.js deployment and exist for one reason: to keep
 `GROQ_API_KEY` off the client.
@@ -18,7 +20,7 @@ Node runtime inside the same Next.js deployment and exist for one reason: to kee
 ▲ Only `/api/domi` has a caller. The other two are fully implemented and reachable,
 but [`lib/store.ts`](../lib/store.ts) imports the domain functions directly instead of
 fetching them — which is why classification runs on heuristics in the browser. See
-[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem).
+[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem--why-groq-never-answers-the-browser).
 
 ---
 
@@ -358,7 +360,7 @@ best match in one round-trip.
 **3 ·** Remove the `import { isSameStrain, classifySubmission } from "./groq"` line so
 `lib/groq.ts` is no longer pulled into the client bundle. This also removes the
 `dangerouslyAllowBrowser: true` surface from the browser entirely — see
-[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem).
+[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem--why-groq-never-answers-the-browser).
 
 **4 ·** Add a request-failure fallback at the call site so a network error still
 produces a submission — the current heuristic engine can be lifted into a small local

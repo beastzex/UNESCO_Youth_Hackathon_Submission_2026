@@ -5,6 +5,8 @@
 
 # ▣ Setup & Operations
 
+**It runs with zero configuration and zero cost. This document is everything else.**
+
 ## ▸ Prerequisites
 
 | Requirement | Version | Notes |
@@ -15,7 +17,7 @@
 | Supabase project | — | Optional. Free tier at [supabase.com](https://supabase.com) |
 
 **Both credentials are optional.** The application boots and runs a complete
-demonstration with zero configuration — see [Zero-config mode](#-zero-config-mode).
+demonstration with zero configuration — see [Zero-config mode](#-zero-config-mode--what-works-with-no-credentials-at-all).
 
 ---
 
@@ -33,7 +35,7 @@ triage items are already loaded.
 
 ---
 
-## ▸ Zero-Config Mode
+## ▸ Zero-Config Mode — What Works With No Credentials At All
 
 What works, and what does not, without any environment variables:
 
@@ -89,7 +91,7 @@ SUPABASE_SERVICE_ROLE_KEY=eyJ...
 runs in the browser with `dangerouslyAllowBrowser: true`, so a public-prefixed key
 would be embedded in the client bundle and readable by anyone. Its server-only scope
 is the reason no key currently leaks. See
-[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem).
+[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem--why-groq-never-answers-the-browser).
 
 ▲ `SUPABASE_SERVICE_ROLE_KEY` bypasses row-level security entirely. It is used only by
 the local seeder and must never reach a client bundle or a deployed environment that
@@ -270,7 +272,7 @@ documented, not new:
 - The analyst always reports "Matched & clustered", never "New strain"
   ([AI Pipeline](04-ai-pipeline.md#-the-clustering-algorithm))
 - Accented characters render incorrectly in several languages
-  ([Internationalization](09-internationalization.md#--encoding-audit))
+  ([Internationalization](09-internationalization.md#--encoding-audit--22-of-24-dictionaries-are-damaged))
 - The `/map` radar is a grid, not a geographic map
   ([Component Catalog](07-component-catalog.md#-mapcomponent--mapwrapper))
 
@@ -341,8 +343,8 @@ fallback also failed.
 **Classification always returns the same technique**
 Expected without correction — browser-side classification uses the heuristic keyword
 ladder, not Groq, because the key is server-only. The ladder is deterministic. See
-[AI Pipeline · Key resolution](04-ai-pipeline.md#-the-key-resolution-problem) and
-[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem).
+[AI Pipeline · Key resolution](04-ai-pipeline.md#-the-key-resolution-problem--why-groq-never-answers-the-browser) and
+[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem--why-groq-never-answers-the-browser).
 
 **Console: `Could not sync with Supabase cloud, using local cache`**
 Either Supabase is unconfigured (harmless — check `isSupabaseConfigured`) or the query
@@ -380,7 +382,7 @@ on mount. See [Design System](10-design-system.md#-theme-flash).
 **Build fails on `lib/regions.ts` or `components/Badge.tsx`**
 Both import from [`types/index.ts`](../types/index.ts), which declares stricter
 optional fields than [`lib/seed-data.ts`](../lib/seed-data.ts). If you have changed
-imports, see [Data Model · The two type sources](03-data-model.md#-the-two-type-sources).
+imports, see [Data Model · The two type sources](03-data-model.md#-the-two-type-sources--and-which-one-actually-runs).
 
 ---
 

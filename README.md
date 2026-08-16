@@ -8,9 +8,10 @@
 Report a rumour, cluster it into a strain, synthesize a two-sentence vaccine, broadcast it, watch herd immunity rise.
 
 [![Live demo](https://img.shields.io/badge/live%20demo-voice--beta--five.vercel.app-22C55E?style=flat&logo=vercel&logoColor=white&labelColor=333)](https://voice-beta-five.vercel.app/)
+[![Proposal](https://img.shields.io/badge/read-the%20proposal-EF4444?style=flat&logo=markdown&logoColor=white&labelColor=333)](PROPOSAL.md)
 [![Docs](https://img.shields.io/badge/docs-11%20documents-8B5CF6?style=flat&logo=readthedocs&logoColor=white&labelColor=333)](docs/README.md)
 [![Hackathon](https://img.shields.io/badge/UNESCO-Youth%20Hackathon%202026-3B82F6?style=flat&logo=unesco&logoColor=white&labelColor=333)](https://www.unesco.org/)
-[![Setup](https://img.shields.io/badge/setup-zero%20config-EAB308?style=flat&logo=gnubash&logoColor=white&labelColor=333)](docs/11-setup-and-operations.md#-zero-config-mode)
+[![Setup](https://img.shields.io/badge/setup-zero%20config-EAB308?style=flat&logo=gnubash&logoColor=white&labelColor=333)](docs/11-setup-and-operations.md#-zero-config-mode--what-works-with-no-credentials-at-all)
 
 [![Next.js](https://img.shields.io/badge/Next.js-14.2.7-white?style=flat&logo=nextdotjs&logoColor=white&labelColor=333)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=flat&logo=react&logoColor=white&labelColor=333)](https://react.dev)
@@ -270,9 +271,7 @@ A region with zero active strains scores 100 by definition. Implementation:
 
 <div align="center">
 
-**© 2026 V0ICE Initiative** · Open Citizen Surveillance Protocol
-
-[![Made for UNESCO](https://img.shields.io/badge/made%20with%20love%20for-UNESCO%20Youth%20Hackathon%202026-EF4444?style=for-the-badge&labelColor=333)](https://voice-beta-five.vercel.app/)
+**Made with ❤️ for the UNESCO Youth Hackathon 2026**
 
 [voice-beta-five.vercel.app](https://voice-beta-five.vercel.app/) &nbsp;·&nbsp; [Documentation](docs/README.md)
 

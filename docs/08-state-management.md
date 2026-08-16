@@ -5,6 +5,8 @@
 
 # ⊙ State Management
 
+**No Redux. No Zustand. One hook, three contexts, and `localStorage` as the source of truth.**
+
 Four state containers. One custom hook holding domain data, three React contexts
 holding cross-cutting UI preferences. No Redux, no Zustand, no server actions, no
 external state library.

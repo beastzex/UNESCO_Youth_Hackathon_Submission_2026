@@ -5,6 +5,8 @@
 
 # ⊕ Internationalization
 
+**24 languages. 3,624 strings. And an encoding bug we found by counting bytes.**
+
 24 languages × 151 keys = **3,624 translated strings**, held in a single
 dictionary-driven React context.
 
@@ -180,7 +182,7 @@ They are also where nearly all of the encoding damage below is concentrated.
 
 ---
 
-## ▸ ▲ Encoding Audit
+## ▸ ▲ Encoding Audit — 22 of 24 Dictionaries Are Damaged
 
 **22 of 24 dictionaries contain mojibake** — UTF-8 bytes that were decoded as Latin-1
 and then re-encoded as UTF-8, producing sequences like `Ã©` where `é` was intended.
@@ -282,7 +284,7 @@ A handful of sequences in `BR`, `PT`, `CS`, `FI`, and `RO` involve a replacement
 character (`�`) where the original byte was already lost — those need manual
 retranslation, not automated repair.
 
-Tracked as [Internationalization](09-internationalization.md#--encoding-audit).
+Tracked as [Internationalization](09-internationalization.md#--encoding-audit--22-of-24-dictionaries-are-damaged).
 
 ---
 

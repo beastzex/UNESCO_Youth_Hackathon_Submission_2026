@@ -5,6 +5,8 @@
 
 # ▤ System Architecture
 
+**One Next.js app, zero required configuration, and one deliberate decision that shapes everything: the API key never touches the browser.**
+
 ## Layer Model
 
 V0ICE is a single Next.js 14 App Router application. There is no separate backend
@@ -195,7 +197,7 @@ future composition. See [State Management](08-state-management.md#-scope-and-iso
 
 ---
 
-## ▸ The Inference Path
+## ▸ The Inference Path — and the One Fact That Explains Everything
 
 Two distinct topologies, and the difference is the single most important architectural
 fact in the system.
@@ -233,12 +235,12 @@ The server handlers [`/api/classify`](../app/api/classify/route.ts) and
 [`/api/match-strain`](../app/api/match-strain/route.ts) *do* have the key and *would*
 run live inference — but no component calls them. Routing the store through them is
 the single highest-leverage fix in the codebase; see
-[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem).
+[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem--why-groq-never-answers-the-browser).
 
 ▲ [`lib/groq.ts`](../lib/groq.ts) sets `dangerouslyAllowBrowser: true` on all three
 client constructions. Today no key reaches the browser, so nothing leaks — but the
 guard rail is off, and any future `NEXT_PUBLIC_GROQ_API_KEY` would exfiltrate
-silently. See [AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem).
+silently. See [AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem--why-groq-never-answers-the-browser).
 
 ---
 

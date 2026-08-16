@@ -5,6 +5,8 @@
 
 # ◈ Overview & Vision
 
+**Why we stopped writing corrections and started running an immune system.**
+
 ## The Thesis
 
 Fact-checking loses because it is structurally too slow. An article takes 24–72 hours
@@ -194,7 +196,7 @@ each documented rather than glossed over:
 | ▲ | Divergence | Detail |
 |---|---|---|
 | 1 | The live map is not Leaflet | The rendered radar is a CSS grid; the Leaflet implementation exists but is orphaned — [Component Catalog](07-component-catalog.md#-mapcomponent--mapwrapper) |
-| 2 | Browser-side classification is heuristic-only | The Groq key is server-only by design, so the client path falls through — [AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem) |
+| 2 | Browser-side classification is heuristic-only | The Groq key is server-only by design, so the client path falls through — [AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem--why-groq-never-answers-the-browser) |
 | 3 | Supabase sync fails on ID type | The migration declares `UUID` primary keys; the store generates prefixed strings — [Data Model](03-data-model.md#-two-defects-in-this-migration) |
 
 ---

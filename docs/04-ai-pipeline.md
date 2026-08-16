@@ -5,6 +5,8 @@
 
 # ◉ AI Pipeline
 
+**Sub-second diagnosis, semantic strain typing across languages, and a fallback engine that still works when the internet doesn't.**
+
 Three inference capabilities, all served by Groq's OpenAI-compatible endpoint through
 the official `openai` SDK.
 
@@ -34,11 +36,11 @@ after resolving a key. `"dummy_key"` acts as a sentinel: both functions test
 `apiKey !== "dummy_key"` before attempting a network call.
 
 ▲ `dangerouslyAllowBrowser: true` disables the SDK's guard against running in a
-browser context. See [AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem).
+browser context. See [AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem--why-groq-never-answers-the-browser).
 
 ---
 
-## ▸ The Key Resolution Problem
+## ▸ The Key Resolution Problem — Why Groq Never Answers the Browser
 
 Both functions resolve their key identically:
 
@@ -84,7 +86,7 @@ const classification = await fetch("/api/classify", {
 
 The handler's response shape is byte-identical to `ClassificationResult`, so nothing
 downstream changes. Tracked as
-[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem).
+[AI Pipeline](04-ai-pipeline.md#-the-key-resolution-problem--why-groq-never-answers-the-browser).
 
 ---
 
