@@ -8,6 +8,7 @@
 Report a rumour, cluster it into a strain, synthesize a two-sentence vaccine, broadcast it, watch herd immunity rise.
 
 [![Live demo](https://img.shields.io/badge/live%20demo-voice--beta--five.vercel.app-22C55E?style=flat&logo=vercel&logoColor=white&labelColor=333)](https://voice-beta-five.vercel.app/)
+[![YouTube Video Demo](https://img.shields.io/badge/video%20walkthrough-YouTube-FF0000?style=flat&logo=youtube&logoColor=white&labelColor=333)](https://youtu.be/Tzlrb1JIgyo?si=JBEu2I9SuoxrrKx1)
 [![Proposal](https://img.shields.io/badge/read-the%20proposal-EF4444?style=flat&logo=markdown&logoColor=white&labelColor=333)](PROPOSAL.md)
 [![Docs](https://img.shields.io/badge/docs-11%20documents-8B5CF6?style=flat&logo=readthedocs&logoColor=white&labelColor=333)](docs/README.md)
 [![Hackathon](https://img.shields.io/badge/UNESCO-Youth%20Hackathon%202026-3B82F6?style=flat&logo=unesco&logoColor=white&labelColor=333)](https://www.unesco.org/)
@@ -28,11 +29,12 @@ Report a rumour, cluster it into a strain, synthesize a two-sentence vaccine, br
 [![Techniques](https://img.shields.io/badge/manipulation%20techniques-6-EF4444?style=flat&labelColor=333)](docs/03-data-model.md#techniquetype)
 [![Strings](https://img.shields.io/badge/translated%20strings-3%2C624-22C55E?style=flat&labelColor=333)](docs/09-internationalization.md)
 
-[Live platform](https://voice-beta-five.vercel.app/) &nbsp;·&nbsp;
+[Live Platform](https://voice-beta-five.vercel.app/) &nbsp;·&nbsp;
+[Video Walkthrough (YouTube)](https://youtu.be/Tzlrb1JIgyo?si=JBEu2I9SuoxrrKx1) &nbsp;·&nbsp;
 [Documentation](docs/README.md) &nbsp;·&nbsp;
-[Quick start](#quick-start) &nbsp;·&nbsp;
-[Architecture](docs/02-architecture.md) &nbsp;·&nbsp;
-[Deployment](docs/11-setup-and-operations.md#-deployment)
+[Proposal (PDF)](submission/V0ICE_Proposal_UNESCO_Youth_Hackathon_2026.pdf) &nbsp;·&nbsp;
+[Quick Start](#quick-start) &nbsp;·&nbsp;
+[Architecture](docs/02-architecture.md)
 
 </div>
 
@@ -256,16 +258,17 @@ A region with zero active strains scores 100 by definition. Implementation:
 
 ## UNESCO Youth Hackathon 2026 Deliverables
 
-**Live deployment —** [voice-beta-five.vercel.app](https://voice-beta-five.vercel.app/)
-
-- Live spotter ingestion — [`/submit`](https://voice-beta-five.vercel.app/submit)
-- Analyst triage and AI clustering — [`/analyst`](https://voice-beta-five.vercel.app/analyst)
-- Vaccine lab synthesis — [`/vaccine`](https://voice-beta-five.vercel.app/vaccine)
-- Regional deployment matrix — [`/distribute`](https://voice-beta-five.vercel.app/distribute)
-- Outbreak radar telemetry — [`/map`](https://voice-beta-five.vercel.app/map)
-- Verified strain taxonomy — [`/strains`](https://voice-beta-five.vercel.app/strains)
-- D0MI assistant — integrated across all routes, <kbd>Ctrl</kbd> + <kbd>K</kbd>
-- Technical documentation — [11 interlinked documents](docs/README.md)
+- 🌐 **Live Production Deployment**: [voice-beta-five.vercel.app](https://voice-beta-five.vercel.app/)
+- 🎥 **Video Walkthrough (YouTube)**: [youtu.be/Tzlrb1JIgyo](https://youtu.be/Tzlrb1JIgyo?si=JBEu2I9SuoxrrKx1)
+- 📄 **Proposal Document (PDF)**: [`submission/V0ICE_Proposal_UNESCO_Youth_Hackathon_2026.pdf`](submission/V0ICE_Proposal_UNESCO_Youth_Hackathon_2026.pdf)
+- 👁️ **Live Spotter Ingestion**: [`/submit`](https://voice-beta-five.vercel.app/submit)
+- 🔬 **Analyst Triage & AI Clustering**: [`/analyst`](https://voice-beta-five.vercel.app/analyst)
+- 💉 **Vaccine Lab Synthesis**: [`/vaccine`](https://voice-beta-five.vercel.app/vaccine)
+- 🩺 **Regional Deployment Matrix**: [`/distribute`](https://voice-beta-five.vercel.app/distribute)
+- 🌐 **Outbreak Radar Telemetry**: [`/map`](https://voice-beta-five.vercel.app/map)
+- 📋 **Verified Strain Taxonomy**: [`/strains`](https://voice-beta-five.vercel.app/strains)
+- 🤖 **D0MI AI Assistant**: Integrated across all routes (<kbd>Ctrl</kbd> + <kbd>K</kbd>)
+- 📚 **Technical Documentation**: [11 Comprehensive Guides](docs/README.md)
 
 ---
 
@@ -273,6 +276,6 @@ A region with zero active strains scores 100 by definition. Implementation:
 
 **Made with ❤️ for the UNESCO Youth Hackathon 2026**
 
-[voice-beta-five.vercel.app](https://voice-beta-five.vercel.app/) &nbsp;·&nbsp; [Documentation](docs/README.md)
+[Live Platform](https://voice-beta-five.vercel.app/) &nbsp;·&nbsp; [Video Walkthrough](https://youtu.be/Tzlrb1JIgyo?si=JBEu2I9SuoxrrKx1) &nbsp;·&nbsp; [Documentation](docs/README.md)
 
 </div>

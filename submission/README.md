@@ -58,6 +58,7 @@ live styles and tables, not an HTML import, so a judge can edit it directly.
 
 ---
 
-**Source code —** [github.com/beastzex/UNESCO_Youth_Hackathon_Submission_2026](https://github.com/beastzex/UNESCO_Youth_Hackathon_Submission_2026)
-**Live platform —** [voice-beta-five.vercel.app](https://voice-beta-five.vercel.app/)
-**Documentation —** [`../docs/`](../docs/README.md)
+**Source code —** [github.com/beastzex/UNESCO_Youth_Hackathon_Submission_2026](https://github.com/beastzex/UNESCO_Youth_Hackathon_Submission_2026)  
+**Live platform —** [voice-beta-five.vercel.app](https://voice-beta-five.vercel.app/)  
+**Video Walkthrough (YouTube) —** [youtu.be/Tzlrb1JIgyo](https://youtu.be/Tzlrb1JIgyo?si=JBEu2I9SuoxrrKx1)  
+**Documentation —** [`../docs/`](../docs/README.md)  
