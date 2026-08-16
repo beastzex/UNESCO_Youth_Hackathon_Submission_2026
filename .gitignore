@@ -43,3 +43,7 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Large local media
+supporting_videos/
+
